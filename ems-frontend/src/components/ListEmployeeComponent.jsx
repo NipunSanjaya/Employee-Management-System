@@ -16,8 +16,8 @@ const ListEmployeeComponent = () => {
         })
     },[])
 
-    function addNewEmployee(params) {
-        
+    function addNewEmployee() {
+        navigator('/add-employee')
     }
 
   return (
