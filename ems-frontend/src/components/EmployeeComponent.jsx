@@ -155,7 +155,7 @@ const EmployeeComponent = () => {
                         {errors.email && <div className='invalid-feedback'>{errors.email}</div>}
                       </div>
 
-                      <button className='btn btn-success' onClick={saveOrUpdateEmployee}>Submit</button>
+                      <button className='btn btn-outline-success' onClick={saveOrUpdateEmployee}>Submit</button>
                   </form>
                 </div>
             </div>
